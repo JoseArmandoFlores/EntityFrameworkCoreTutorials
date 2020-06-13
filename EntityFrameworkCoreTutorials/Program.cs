@@ -22,10 +22,10 @@ namespace EntityFrameworkCoreTutorials
 
                 var estudiante = new Estudiante()
                 {
-                    Nombre = "Jose",
-                    Apellido="Flores",
+                    Nombre = "Juan",
+                    Apellido = "Perez",
                     FechaNacimiento = DateTime.Now,
-                    CursoId= 1 
+                    CursoId = 1
                 };
 
                 db.Estudiantes.Add(estudiante);
